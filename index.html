@@ -1,253 +1,168 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sanji Trading</title>
-  <link href="./css/common.css" type="text/css" rel="Stylesheet" />
-  <link href="./css/hover.css" type="text/css" rel="Stylesheet" />
-
-  <link href="./css/header.css" type="text/css" rel="Stylesheet" />
-  <link href="./css/contentTop.css" type="text/css" rel="Stylesheet" />
-  <link href="./css/photo.css" type="text/css" rel="Stylesheet" />
-  <link href="./css/contentBottom.css" type="text/css" rel="Stylesheet" />
-  <link href="./css/footer.css" type="text/css" rel="Stylesheet" />
-  
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no" />
+<title>博远</title>
+<link rel="stylesheet" type="text/css" href="Assets/css/reset.css"/>
+<script type="text/javascript" src="Assets/js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="Assets/js/js_z.js"></script>
+<script type="text/javascript" src="Assets/js/banner.js"></script>
+<link rel="stylesheet" type="text/css" href="Assets/css/thems.css">
+<script language="javascript">
+$(function(){
+	$('#owl-demo').owlCarousel({
+		items: 1,
+		navigation: true,
+		navigationText: ["上一个","下一个"],
+		autoPlay: true,
+		stopOnHover: true
+	}).hover(function(){
+		$('.owl-buttons').show();
+	}, function(){
+		$('.owl-buttons').hide();
+	});
+});
+</script>
 </head>
 
 <body>
-  <header>
-    <div class="tabbar center">
-      <div class="logo">
-        <img src="image/logo.png" alt="">
-      </div>
-      <div class="tabbarlist">
-        <ul>
-          <li><a href="#">main</a></li>
-          <li><a href="#">about</a></li>
-          <li><a href="#">prodution</a></li>
-          <li><a href="#">news</a></li>
-         <li><a href="#">contact</a></li>
+<!--头部-->
+<div class="header">
+    <div class="head clearfix">
+        <div class="logo"><a href=""><img src="Assets/images/logo.png" alt="博远"/></a></div>
+        <ul class="nav clearfix">
+            <li><a href="index.html">首页</a></li>
+            <li class="now"><a href="about.html">关于我们</a></li>
+            <li><a href="news.html">新闻资讯</a></li>
+            <li><a href="product.html">产品展示</a></li>
+            <li><a href="service.html">服务中心</a></li>
+            <li><a href="contact.html">联系我们</a></li>
         </ul>
-      </div>
-    </div>
-    <div class="headimg">
-      <div>
-        <img src="./image/home.png" alt="">
-      </div>
-
-      <div class="imgtext">
-        <h1>Sanji Trading</h1>
-        <h2><i>robin&nbsp;international&nbsp;logistics
-          &nbsp;company</i></h2>
-      </div>
-    </div>
-  </header>
-  <div class="contentTop">
-    <div class="about center">
-      <div class="aboutimg">
-      </div>
-      <div class="abouttext">
-        <p class="aboutp">about</p>
-        <span>
-         罗宾供应链成立于1997年，以成为“全球化供应链管理公司”为战略目标，多年来一直致力于推动中国物流服务业的快速全面发展。在先进的物流IT系统支持下，充分整合集团和社会物流资源，为客户提供全方位物流及增值服务。
-
-罗宾国际物流服务涵盖广泛，涉及海运、空运、多式联运、保税区物流、供应链方案设计、报关报检、供应链金融、跨境电商等专业领域。运转高效的服务网络已经遍布全球，在海外拥有二百多个合作伙伴，在国内主要城市设有子公司或分公司，为客户提供轻松便捷的贴心服务。
-
-罗宾国际物流所服务的客户包含了IT、家电、纺织品、医药品、日用消费品、农产品等各大行业，为多家世界500强企业、海内外上市公司、知名企业提供物流管理服务。
-        </span>
-        <p class="pButton" style="float: right;"><a href="#">查看更多</a></p>
-      </div>
-    </div>
-    <div class="main center">
-      <div class="title">
-        <p>主营业务
-
-        </p>
-        <span>Main business</span>
-      </div>
-      <ul class="mainlist flex">
-        <li style="margin-left: 0;">
-          <a href="#">
-            <div></div>
-            <p>国内长短途海运</p>
-            <span class="spanone">依托中小型货轮运输,优势明显</span>
-            <span class="spantow">了解详细>></span>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <div></div>
-            <p>国外长途海运</p>
-            <span class="spanone">大型货轮运输</span>
-            <span class="spantow">了解详细>></span>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <div></div>
-            <p>国内陆运</p>
-            <span class="spanone">港口短途配送服务</span>
-            <span class="spantow">了解详细>></span>
-          </a>
-        </li>
-        <li>
-          <a href="#">
-            <div></div>
-            <p>航空部</p>
-            <span class="spanone">敬请期待</span>
-            <span class="spantow">了解详细>></span>
-          </a>
-        </li>
-      </ul>
-    </div>
-  </div>
-  <div class="photo">
-    <div class="title center">
-      <p>公司相册</p>
-      <span>Company photo album</span>
-    </div>
-    <div class="back">
-      <ul class="center photolist">
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-    </div>
-  </div>
-  <div class="contentButtom">
-    <div class="news center">
-      <div class="title">
-        <p>新闻中心</p>
-        <span>News</span>
-      </div>
-      <ul class="newslist flex">
-        <li class="list1">
-          <div>
-            <p>港口开启飞速发展</p>
-            <span>2020-8-30 千图青年报 责任编辑:千小图</span>
-            <p>
-              新闻,是对内容的简要总结。新闻提要，是对内容的简要总结。新闻提要，是对内容的简要总结。新闻提要，是对内容的简要总结。新闻提要，是对内容的简要总结。
-            </p>
-            <a href="#">查看全文>></a>
-          </div>
-
-        </li>
-        <li class="list2">
-          <div>
-            <p>港口引进新机器，运力翻倍</p>
-            <span>2020-8-30 千图青年报 责任编辑:千小图</span>
-            <p>
-              新闻,是对内容的简要总结。新闻提要，是对内容的简要总结。新闻提要，是对内容的简要总结。新闻提要，是对内容的简要总结。新闻提要，是对内容的简要总结。
-            </p>
-            <a href="#">查看全文>></a>
-          </div>
-        </li>
-        <li class="list3">
-          <div>
-            <p>大型油轮靠岸</p>
-            <span>2020-8-30 千图青年报 责任编辑:千小图</span>
-            <p>
-              新闻,是对内容的简要总结。新闻提要，是对内容的简要总结。新闻提要，是对内容的简要总结。新闻提要，是对内容的简要总结。新闻提要，是对内容的简要总结。
-            </p>
-            <a href="#">查看全文>></a>
-          </div>
-        </li>
-      </ul>
-      <p class="pButton newsButton"><a href="#">全部新闻</a></p>
-    </div>
-    <div class="contact center flex">
-      <div class="contactLeft">
-        <div class="title contactTitle">
-          <p style="line-height: 60px;">联系我们</p>
-          <span style="line-height: 0px;">Contact us</span>
+        <div class="head_r">
+        	<div class="lang">
+            	<a href="">中文</a><span>|</span><a href="">English</a>
+            </div>
+            <div class="search">
+            	<input name="" type="text" placeholder="Search…">
+                <input name="" type="submit" value="">
+            </div>
         </div>
-        <ul class="contactlist">
-          <li>
-            公司地址: 广州市番禺区东环街兴学路新骏一街16号敏捷商务中心2座611
-          </li>
-          <li>
-            联系电话：13570293278
-          </li>
-          <li>
-           联系人：LOUIS ZHONG
-          </li>
-<!--          <li>-->
-<!--            传真：888-88888888-->
-<!--          </li>-->
-          <li>
-            邮箱：louis.zhong@robinlogisticsglobal.com
-          </li>
+    </div>
+</div>
+<!--头部-->
+<!--幻灯片-->
+<div id="banner" class="banner"> 
+    <div id="owl-demo" class="owl-carousel"> 
+        <a class="item" target="_blank" href="" style="background-image:url(Assets/upload/banner.jpg)">
+            <img src="Assets/upload/banner.jpg" alt="">
+        </a>
+        <a class="item" target="_blank" href="" style="background-image:url(Assets/upload/banner.jpg)">
+            <img src="Assets/upload/banner.jpg" alt="">
+        </a>
+        <a class="item" target="_blank" href="" style="background-image:url(Assets/upload/banner.jpg)">
+            <img src="Assets/upload/banner.jpg" alt="">
+        </a>
+    </div>
+</div>
+<!--幻灯片-->
+<div class="space_hx">&nbsp;</div>
+<div class="scd clearfix">
+	<div class="scd_l">
+    	<div class="s_name"><span>关于我们</span></div>
+        <ul class="s_nav">
+        	<li class="now">
+            	<a href="">
+                	公司简介
+                    <em>&nbsp;</em>
+                </a>
+            </li>
+            <li>
+            	<a href="">
+                	企业文化
+                    <em>&nbsp;</em>
+                </a>
+            </li>
+            <li>
+            	<a href="">
+                	相关认证
+                    <em>&nbsp;</em>
+                </a>
+            </li>
         </ul>
-      </div>
-      <div class="contactright">
-        <img src="image/map.jpg" alt="">
-      </div>
     </div>
-  </div>
-  <footer>
-    <div class="center" style="position: relative; height: 390px;">
-      <div class=" footerTop flex">
-<!--        <div class="logo">-->
-<!--          <img src="image/logo.png" alt="">-->
-<!--        </div>-->
-        <div class="footerlist flex">
-          <dl>
-            <dt><a href="#">关于我们</a></dt>
-            <dd><a href="#">关于我们</a></dd>
-            <dd><a href="#">关于我们</a></dd>
-            <dd><a href="#">关于我们</a></dd>
-            <dd><a href="#">关于我们</a></dd>
-          </dl>
-          <dl>
-            <dt><a href="#">关于我们</a></dt>
-            <dd><a href="#">关于我们</a></dd>
-            <dd><a href="#">关于我们</a></dd>
-            <dd><a href="#">关于我们</a></dd>
-
-          </dl>
-          <dl>
-            <dt><a href="#">关于我们</a></dt>
-            <dd><a href="#">关于我们</a></dd>
-            <dd><a href="#">关于我们</a></dd>
-
-          </dl>
-          <dl>
-            <dt><a href="#">关于我们</a></dt>
-            <dd><a href="#">关于我们</a></dd>
-            <dd><a href="#">关于我们</a></dd>
-            <dd><a href="#">关于我们</a></dd>
-            <dd><a href="#">关于我们</a></dd>
-            <dd><a href="#">关于我们</a></dd>
-          </dl>
-          <dl>
-            <dt><a href="#">关于我们</a></dt>
-            <dd><a href="#">关于我们</a></dd>
-            <dd><a href="#">关于我们</a></dd>
-            <dd><a href="#">关于我们</a></dd>
-            <dd><a href="#">关于我们</a></dd>
-          </dl>
-          <dl>
-            <dt><a href="#">关于我们</a></dt>
-            <dd><a href="#">关于我们</a></dd>
-            <dd><a href="#">关于我们</a></dd>
-            <dd><a href="#">关于我们</a></dd>
-
-          </dl>
+    <div class="scd_r">
+    	<div class="r_top">
+        	<span>公司简介</span>
+            <div class="pst">
+            	<a href="" class="home">首页</a>>
+                <a href="">关于我们</a>>
+                <a href="">公司简介</a>
+            </div>
         </div>
-      </div>
-<!--      <div class=" footerBottom">-->
-<!--        <p>网站备案号:8888888888888888888888888888</p>-->
-<!--        <p>备案:8888888888888888888888888888XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX</p>-->
-<!--      </div>-->
-<!--    </div>-->
-  </footer>
+        <div class="s_ctn clearfix">
+        	<img src="Assets/upload/pic7.jpg" width="394" height="256" style="float:left; margin-right:20px;" alt=""/>
+            <h1 style=" font-size:20px; padding:15px 0; font-weight:normal; color:#000;">广州南丁医疗科技有限公司</h1>
+            <p>广州南丁医疗科技有限公司是一家集研发、销售、加工为一体的多元化公司，公司专注于一次性医疗耗材、口腔耗材多年，拥有丰富的产</p><br/>
+            <p>品种类、各种各样的颜色，产品远销世界各个国家和地区以及国内市场，拥有齐全的资质证书。</p>
+            <br/>
+            <p>经过几年的发展，公司产品出口美国，德国，法国，澳大利亚等四十多个国家和地区，并且和很多知名公司建立了OEM、ODM合作。</p>
+        </div>
+    </div>
+</div>
+<div class="space_hx">&nbsp;</div>
+<div class="fn_bg">
+	<ul class="f_nav clearfix">
+    	<li>
+        	<b>关于我们</b>
+            <p><a href="">公司简介</a></p>
+            <p><a href="">企业文化</a></p>
+            <p><a href="">相关认证</a></p>
+        </li>
+        <li>
+        	<b>新闻资讯</b>
+            <p><a href="">公司新闻</a></p>
+            <p><a href="">行业动态</a></p>
+        </li>
+        <li>
+        	<b>产品展示</b>
+            <p><a href="">牙科隔离罩</a></p>
+            <p><a href="">牙科美容产品</a></p>
+            <p><a href="">一次性材料</a></p>
+            <p><a href="">强弱吸管</a></p>
+            <p><a href="">牙科器具</a></p>
+        </li>
+        <li>
+        	<b>业务范围</b>
+            <p><a href="">产品研发</a></p>
+            <p><a href="">定制产品</a></p>
+            <p><a href="">生产加工</a></p>
+            <p><a href="">出口运输</a></p>
+        </li>
+        <li>
+        	<b>服务中心</b>
+            <p><a href="">售后服务</a></p>
+            <p><a href="">产品保障</a></p>
+            <p><a href="">常见问题</a></p>
+            <p><a href="">隐私政策</a></p>
+        </li>
+        <li class="last">
+        	<b>FIND US ON:</b>
+            <div class="share">
+            	<a href=""><img src="Assets/images/s1.png" alt=""/></a>
+                <a href=""><img src="Assets/images/s2.png" alt=""/></a>
+                <a href=""><img src="Assets/images/s3.png" alt=""/></a>
+                <a href=""><img src="Assets/images/s4.png" alt=""/></a>
+            </div>
+        </li>
+    </ul>
+</div>
+<div class="f_bg">
+	<div class="foot">
+    	<span>版权所有 2015-2018  武汉南丁医疗科技有限公司</span>
+        <a href="">网站地图</a>
+    </div>
+</div>
 </body>
-
 </html>
